@@ -1,5 +1,5 @@
 # 🏝️ Plataforma de Viagens
-> 🔗 **Deploy:**(https://pagina-do-hotel.vercel.app/)) &nbsp;|&nbsp; 📁 **Repositório:** [github.com/larissarauj0/pagina-do-hotel](https://github.com/larissarauj0/pagina-do-hotel)
+> 🔗 **Deploy:** https://pagina-do-hotel.vercel.app/ &nbsp;|&nbsp; 📁 **Repositório:** [github.com/larissarauj0/pagina-do-hotel](https://github.com/larissarauj0/pagina-do-hotel)
 
 Aplicação web desenvolvida em React que permite ao usuário buscar destinos por estado e cidade, explorando opções de hospedagem de forma simples e intuitiva.
 
