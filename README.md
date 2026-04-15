@@ -1,16 +1,120 @@
-# React + Vite
+# 🏝️ Plataforma de Viagens
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em React que permite ao usuário buscar destinos por estado e cidade, explorando opções de hospedagem de forma simples e intuitiva.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🔎 Busca de destinos por **estado e cidade** (API do IBGE)
+* 🖼️ Banner interativo com carrossel automático
+* 📱 Layout totalmente **responsivo**
+* 📄 Páginas informativas:
 
-## React Compiler
+  * Sobre nós
+  * Como reservar
+  * Informações importantes
+  * Contato
+* 🎯 Interface simples e focada na experiência do usuário
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* React Router DOM
+* Tailwind CSS
+* JavaScript (ES6+)
+* API pública do IBGE
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+src/
+├── assets/
+├── routes/
+│   ├── home.jsx
+│   ├── contato.jsx
+│   ├── como-reservar.jsx
+│   ├── informacoes.jsx
+│   └── sobre-nos.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🌐 API utilizada
+
+Os dados de estados e cidades são consumidos da API pública do IBGE:
+
+https://servicodados.ibge.gov.br/api/docs/localidades
+
+---
+
+## ▶️ Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Acesse a pasta:
+
+```bash
+cd seu-repositorio
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Rode o projeto:
+
+```bash
+npm run dev
+```
+
+5. Acesse no navegador:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido com foco em responsividade utilizando Tailwind CSS, garantindo boa experiência em:
+
+* 📱 Mobile
+* 💻 Desktop
+* 📟 Tablets
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+* Componentização em React
+* Gerenciamento de estado com hooks
+* Consumo de APIs
+* Criação de layouts responsivos
+* Estruturação de rotas com React Router
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Larissa Araujo
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso livre para fins de estudo.
